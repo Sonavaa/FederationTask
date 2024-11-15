@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Voleybol Federasiyası</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              screens: {
+                'sm': '576px',
+                'md': '768px',
+               'lg': '992px',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+
+    <div class="h-full w-[55%] flex flex-col items-center pt-28 pl-20">
+        <div class="mb-8 w-[120px]">
+            <img src="./images/fed-img1.jpg" alt="">
+        </div>
+
+        <div class="w-[300px] h-[250px] flex flex-col justify-around items-center">
+            <button class=""><p>Klub qeydiyyatı</p></button>
+            <button class=""><p>Komanda qeydiyyatı</p></button>
+            <button class=""><p>Heyət qeydiyyatı</p></button>
+        </div>
+    </div>
+
+    <div class="h-full w-[45%]">
+        <div class="secondImg w-full h-full flex justify-end items-center">
+            <img class="w-full h-full relative" src="./images/fed-img2.jpeg" alt="">
+            <img class=" img2 w-[90%] h-[90%] absolute" src="./images/fed-img2.jpeg" alt="">
+            <div class="overlay img2 w-[90%] h-[90%] absolute bg-white"></div>
+        </div>
+    </div>
+</body>
+<script src="./js/main.js"></script>
+</html>
