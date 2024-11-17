@@ -38,7 +38,7 @@ h2 {
   padding-left: 10px;
 }
 .input #gender,
-#hall {
+#hall,#teamCategory {
   width: 75%;
   height: 40px;
   padding-left: 10px;
@@ -83,6 +83,9 @@ button p {
 }
 .table-striped tbody {
   cursor: pointer;
+}
+select option:disabled {
+  display: none;
 }
 @media only screen and (max-width: 1200px) {
   #addInputBtn {
